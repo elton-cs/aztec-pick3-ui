@@ -1,5 +1,6 @@
 <script>
     import Counter from "./Counter.svelte";
+    import Submit from "./Submit.svelte";
 
     let digit1 = "";
     let digit2 = "";
@@ -10,12 +11,14 @@
 </script>
 
 <div class="flex flex-col items-center">
-    <h1 class="">Aztec ZkPick 3</h1>
+    <h1 class="font-bold">Aztec ZkPick 3</h1>
 
     <div class="flex flex-row items-center">
         <Counter/>
         <Counter/>
         <Counter/>
     </div>
+
+    <Submit/>
 
 </div>
