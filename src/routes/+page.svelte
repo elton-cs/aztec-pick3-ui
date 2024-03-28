@@ -10,7 +10,7 @@
 
 </script>
 
-<div class="flex flex-col items-center">
+<div class="flex flex-col items-center my-8 space-y-5">
     <h1 class="font-bold">Aztec ZkPick 3</h1>
 
     <div class="flex flex-row items-center">
